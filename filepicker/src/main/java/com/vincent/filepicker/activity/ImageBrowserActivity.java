@@ -61,9 +61,11 @@ public class ImageBrowserActivity extends BaseActivity {
         initIndex = getIntent().getIntExtra(IMAGE_BROWSER_INIT_INDEX, 0);
         mCurrentIndex = initIndex;
         mSelectedFiles = getIntent().getParcelableArrayListExtra(IMAGE_BROWSER_SELECTED_LIST);
-        mCurrentNumber = mSelectedFiles.size();
 
-
+        if(mSelectedFiles != null) {
+            mCurrentNumber = mSelectedFiles.size();
+        }
+        
         super.onCreate(savedInstanceState);
     }
 
