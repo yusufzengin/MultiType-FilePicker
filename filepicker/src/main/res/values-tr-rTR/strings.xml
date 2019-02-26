@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vw_confirm">Tamam</string>
+    <string name="vw_no_video_play_app">Video oynatmak için uygulama mevcut değil!</string>
+    <string name="vw_record_audio">Ses kaydet</string>
+    <string name="vw_rationale_storage">Dosya seçmek için Depolama izni gerekli</string>
+    <string name="vw_up_to_max">Seçilebilir maksimum dosya sayısına ulaştınız</string>
+    <string name="vw_no_photo_app">Cihazda foroğraf uygulaması mevcut değil!</string>
+    <string name="vw_no_audio_play_app">Ses dosyalarını oynatmak için uygulama mevut değil!</string>
+    <string name="vw_no_video_app">Cihazda video uygulaması mevcut değil!</string>
+    <string name="vw_no_audio_app">Cihazda ses uygulaması mevcut değil!</string>
+    <string name="vw_all">Tümü</string>
+</resources>
